@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="account_print_wizard_form_view">
+            <field name="name">account.print.wizard.wizard.form</field>
+            <field name="model">account.print.wizard</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="print_account">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="print_level" string="请输入打印等级"/>
+                            </group>
+                        </group>
+                    </sheet>
+                    <footer>
+                        <button name="print_to_pdf" type="object"
+                                string="导出pdf" class="oe_highlight"/>
+                        <!--<button name="print_to_excel" type="object"-->
+                                <!--string="导出excel" class="oe_highlight"/>-->
+                        <button special="cancel" string="取消"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_view_print_account" model="ir.actions.act_window">
+            <field name="name">打印会计凭证</field>
+            <field name="res_model">account.print.wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="target">new</field>
+            <field name="view_mode">form</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="account_print_ext.account_print_wizard_form_view"/>
+        </record>
+
+        <record id="action_print_account" model="ir.values">
+            <field name="name">打印会计凭证</field>
+            <field name="model">account.move</field>
+            <field name="key">action</field>
+            <field name="key2">client_action_multi</field>
+            <field name="value" eval="'ir.actions.act_window,%d'%action_view_print_account"/>
+        </record>
+    </data>
+</odoo>

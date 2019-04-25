@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <report
+            id="account_report"
+            name="account_print_ext.account_report"
+            string="xls"
+            model="account.print.wizard"
+            menu="False"
+        />
+
+        <record id="account_report" model="ir.actions.report.xml">
+            <field name="report_type">controller</field>
+            <field name="report_rml">/report/account_print_ext.account_report</field>
+        </record>
+
+    </data>
+</odoo>

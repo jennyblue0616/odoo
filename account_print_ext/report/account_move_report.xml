@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+                id="action_report_account_move"
+                string="打印凭证"
+                model="report.account_print_ext.report_account_move"
+                report_type="qweb-html"
+                file="account_print_ext.report_account_move"
+                name="account_print_ext.report_account_move"
+        />
+
+        <template id="report_account_move">
+            <t t-call="report.html_container">
+                <t t-set="data_report_margin_top" t-value="12"/>
+                <t t-set="data_report_header_spacing" t-value="9"/>
+                <t t-set="data_report_dpi" t-value="110"/>
+                <t t-set="data-report_page_height" t-value="210"/>
+                <t t-set="data-report_page_width" t-value="297"/>
+                <t t-foreach="docs" t-as="o">
+                    <t t-foreach="page(o.id)" t-as="p">
+                        <t t-call="report.internal_layout">
+                            <t t-set="i" t-value="1"/>
+                            <div class="page">
+                                <div class="row">
+                                    <div class="oe_structure"/>
+                                    <div class="row">
+                                        <h2 class="text-center">
+                                            记账凭证
+                                        </h2>
+                                        <p class="text-center" t-field="o.date"/>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-xs-4 pull-left">
+                                        <span>参考信息：</span>
+                                        <span t-esc="o.ref"/>
+                                    </div>
+                                    <div class="col-xs-4 text-center">
+                                        <span>凭证类别：</span>
+                                        <span t-field="o.voucher_type"/>
+                                    </div>
+                                    <div class="col-xs-2 text-right">
+                                        <span>本币：CNY</span>
+                                    </div>
+                                    <div class="col-xs-2 text-right">
+                                        <span>单位：元</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-4 pull-left">
+
+                                        <span>期间</span>
+                                        <span t-field="o.period_id.name"/>
+                                    </div>
+                                    <div class="col-xs-4 text-center">
+                                        <span>日期：</span>
+                                        <span t-esc="o.date"/>
+                                    </div>
+                                    <div class="col-xs-2 text-right">
+                                        <span>凭证字号:</span>
+                                        <span t-esc="o.voucher_name"/>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered" style="border: 1px solid black;">
+                                    <thead>
+                                        <tr>
+                                            <td style="width:12.5%;text-align:center; border: 1px solid black;">摘要</td>
+                                            <td style="width:12.5%;text-align:center; border: 1px solid black;">会计科目
+                                            </td>
+                                            <td style="width:12.5%;text-align:center; border: 1px solid black;">现金流量表行
+                                            </td>
+                                            <td style="width:12.5%;text-align:center; border: 1px solid black;">分析账户
+                                            </td>
+                                            <td style="width:12.5%;text-align:center; border: 1px solid black;">合作伙伴
+                                            </td>
+                                            <td style="width:12.5%;text-align:center; border: 1px solid black;">车辆</td>
+                                            <td style="width:12.5%;text-align:center; border: 1px solid black;">借方</td>
+                                            <td style="width:12.5%;text-align:center; border: 1px solid black;">贷方</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-center" style="border: 1px solid black;">
+                                        <t t-foreach="lists(o.id)" t-as="l">
+                                            <tr style="border: 1px solid black;">
+                                                <t t-set="i" t-value="l_index"/>
+                                                <t t-if="i &lt; p and i &gt; p-line_num-1">
+                                                    <td rowspan="1" height="60px" style="border: 1px solid black;">
+                                                        <span t-esc="l['name']"/>
+                                                    </td>
+                                                    <td rowspan="1" style="border: 1px solid black;">
+                                                        <span t-esc="l['account_name']"/>
+                                                    </td>
+                                                    <td style="border: 1px solid black;">
+                                                    </td>
+                                                    <td style="border: 1px solid black;">
+                                                    </td>
+                                                    <td style="border: 1px solid black;">
+                                                    </td>
+                                                    <td style="border: 1px solid black;">
+                                                    </td>
+                                                    <td style="border: 1px solid black;">
+                                                        <t t-if="l['debit'] != 0">
+                                                            <span t-esc="l['debit']"/>
+                                                        </t>
+                                                    </td>
+                                                    <td style="border: 1px solid black;">
+                                                        <t t-if="l['credit'] != 0">
+                                                            <span t-esc="l['credit']"/>
+                                                        </t>
+                                                    </td>
+                                                </t>
+                                            </tr>
+                                        </t>
+                                        <tr>
+                                            <td height="40px" style="border: 1px solid black;">
+                                                <span>附件:</span>
+                                                <span t-esc="o.attachment_num or '0'"/>
+                                                <span>张</span>
+                                            </td>
+                                            <td colspan="4" style="border: 1px solid black;">
+                                                <span>合计:</span>
+                                                <span t-esc="o.amount_chinese"/>
+                                            </td>
+                                            <td colspan="1" style="border: 1px solid black;">
+                                            </td>
+                                            <td colspan="1" style="border: 1px solid black;">
+                                                <!--<span t-field="o.company_id.currency_id.symbol" />-->
+                                                <span t-esc="o.gross_amount_ext"/>
+                                            </td>
+                                            <td colspan="1" style="border: 1px solid black;">
+                                                <!--<span t-field="o.company_id.currency_id.symbol" />-->
+                                                <span t-esc="o.gross_amount_ext"/>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <span>记账人:</span>
+                                        <span t-esc="o.post_uid.name"/>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <span>审核人:</span>
+                                        <span t-esc="o.approval_uid.name"/>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <span>出纳:</span>
+                                        <span t-esc="o.cashier_uid.name"/>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <span>制单人:</span>
+                                        <span t-esc="o.create_uid.name"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </t>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>
