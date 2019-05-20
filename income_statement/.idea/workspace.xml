@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8460f38d-2d62-4d41-aed6-3790a94c2f9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../flsscm_odoo/l10n_cn_voucher/report/__account_move_report.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flsscm_odoo/l10n_cn_voucher/report/_account_move_report.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flsscm_odoo/l10n_cn_voucher/report/account_move_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../flsscm_odoo/l10n_cn_voucher/report/account_move_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flsscm_odoo/l10n_cn_voucher/report/account_move_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../flsscm_odoo/l10n_cn_voucher/report/account_move_report.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flsscm_odoo/xjy_wms/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../flsscm_odoo/xjy_wms/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_print_ext/report/account_move_report_print.py" beforeDir="false" afterPath="$PROJECT_DIR$/../account_print_ext/report/account_move_report_print.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_print_ext/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../account_print_ext/security/ir.model.access.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_print_ext/wizard/account_print_wizard.py" beforeDir="false" afterPath="$PROJECT_DIR$/../account_print_ext/wizard/account_print_wizard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_print_ext/wizard/print_wizard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_print_ext/wizard/print_wizard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/export_to_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/export_to_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/account_tax.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/account_tax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/security/ir.model.access.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/customer_attribute_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/customer_attribute_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/income_tax_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/income_tax_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wizard/account_income_wizard.py" beforeDir="false" afterPath="$PROJECT_DIR$/wizard/account_income_wizard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monomer_statements/models/monomer_statements.py" beforeDir="false" afterPath="$PROJECT_DIR$/../monomer_statements/models/monomer_statements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monomer_statements/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../monomer_statements/security/ir.model.access.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monomer_statements/views/monomer_statements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../monomer_statements/views/monomer_statements.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1950939344">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="24" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="10" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="25" />
+          <entry key="html" value="1" />
+          <entry key="po" value="6" />
+          <entry key="py" value="255" />
+          <entry key="xml" value="121" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Python" value="255" />
+          <entry key="XML" value="121" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="87" />
+          <entry key="csv" value="140" />
+          <entry key="po" value="127" />
+          <entry key="py" value="22131" />
+          <entry key="xml" value="1300" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="267" />
+          <entry key="Python" value="22218" />
+          <entry key="XML" value="1300" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wizard/account_income_wizard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#24#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/account_tax.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>filter</find>
+      <find>sorted</find>
+      <find>search</find>
+      <find>get_last_period</find>
+      <find>order</find>
+      <find>inv</find>
+      <find>filtered</find>
+      <find>self.period_id</find>
+      <find>readonly</find>
+      <find>print</find>
+      <find>_get_create_amount</find>
+      <find>sum_item_year</find>
+      <find>sum_year</find>
+      <find>current_period_id</find>
+      <find>period</find>
+      <find>set</find>
+      <find>_check_period</find>
+      <find>_get_last_amount</find>
+      <find>company_id</find>
+      <find>income_data</find>
+      <find>res_data</find>
+      <find>result</find>
+      <find>start_period</find>
+      <find>saas_re</find>
+      <find>report_name</find>
+      <find>simplejson</find>
+      <find>partner_type</find>
+      <find>tax_rate</find>
+      <find>account_period</find>
+      <find>ac_period</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>partner_ids</replace>
+      <replace>get_saas_customer_data</replace>
+      <replace>sql</replace>
+      <replace>customer_attribue</replace>
+      <replace>customer_attribute</replace>
+      <replace>line</replace>
+      <replace>fresh_base.</replace>
+      <replace>body_row_idx</replace>
+      <replace>current_period_id</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\work\fresh_inspurodoo\</dir>
+      <dir>E:\work\flsscm_odoo\osbzr_account</dir>
+      <dir>E:\work\flsscm_odoo\celery</dir>
+      <dir>E:\fresh_inspurodoo\myaddons\account_analytic_ext</dir>
+      <dir>E:\odoo_10.0+e.latest (1)</dir>
+      <dir>E:\work\fresh_inspurodoo\income_statement</dir>
+      <dir>E:\work\fresh_inspurodoo\monomer_statements</dir>
+      <dir>E:\work\flsscm_odoo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../account_print_ext/__manifest__.py" />
+        <option value="$PROJECT_DIR$/views/menu.xml" />
+        <option value="$PROJECT_DIR$/views/income_sheet.xml" />
+        <option value="$PROJECT_DIR$/../../flsscm_odoo/osbzr_account/models/account_balance.py" />
+        <option value="$PROJECT_DIR$/../account_print_ext/report/account_move_report_print.py" />
+        <option value="$PROJECT_DIR$/models/__init__.py" />
+        <option value="$PROJECT_DIR$/rpc.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/tools/__init__.py" />
+        <option value="$PROJECT_DIR$/tools/rpc.py" />
+        <option value="$PROJECT_DIR$/views/income_account_report.xml" />
+        <option value="$PROJECT_DIR$/views/income_tax_view.xml" />
+        <option value="$PROJECT_DIR$/i18n/zh_CN.po" />
+        <option value="$PROJECT_DIR$/wizard/income_sheet.xml" />
+        <option value="$PROJECT_DIR$/i18n/zh_CN .po" />
+        <option value="$PROJECT_DIR$/../monomer_statements/__init__.py" />
+        <option value="$PROJECT_DIR$/../monomer_statements/models/__init__.py" />
+        <option value="$PROJECT_DIR$/../monomer_statements/data/ms_sequence.xml" />
+        <option value="$PROJECT_DIR$/../monomer_statements/i18n/zh_CN.po" />
+        <option value="$PROJECT_DIR$/views/income_tax_menu.xml" />
+        <option value="$PROJECT_DIR$/models/account_tax.py" />
+        <option value="$PROJECT_DIR$/views/customer_attribute_menu.xml" />
+        <option value="$PROJECT_DIR$/__manifest__.py" />
+        <option value="$PROJECT_DIR$/security/ir.model.access.csv" />
+        <option value="E:/local/test.py" />
+        <option value="$PROJECT_DIR$/../../flsscm_odoo/update_account/models/account_period.py" />
+        <option value="$PROJECT_DIR$/../../flsscm_odoo/account_fresh/models/account_invoice.py" />
+        <option value="$PROJECT_DIR$/../monomer_statements/security/monomer_statements_security.xml" />
+        <option value="$PROJECT_DIR$/../monomer_statements/__manifest__.py" />
+        <option value="$PROJECT_DIR$/../monomer_statements/security/ir.model.access.csv" />
+        <option value="$PROJECT_DIR$/../monomer_statements/views/monomer_statements.xml" />
+        <option value="$PROJECT_DIR$/controllers/export_to_excel.py" />
+        <option value="$PROJECT_DIR$/../monomer_statements/models/monomer_statements.py" />
+        <option value="$PROJECT_DIR$/wizard/account_income_wizard.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-540" />
+    <option name="y" value="6" />
+    <option name="width" value="1679" />
+    <option name="height" value="894" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="income_statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="income_statement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="income_statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="income_statement" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="income_statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="income_statement" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="income_statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="income_statement" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="income_statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="income_statement" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="income_statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="income_statement" type="462c0819:PsiDirectoryNode" />
+              <item name="wizard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="income_statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monomer_statements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="income_statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monomer_statements" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../monomer_statements" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\fresh_inspurodoo\monomer_statements\security" />
+      <recent name="E:\work\fresh_inspurodoo\monomer_statements\i18n" />
+      <recent name="E:\work\fresh_inspurodoo\income_statement\i18n" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\fresh_inspurodoo\income_statement\tools" />
+      <recent name="E:\work\fresh_inspurodoo\income_statement\wizard" />
+      <recent name="E:\work\fresh_inspurodoo\income_statement\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="rpc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="income_statement" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/rpc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="local" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/local" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:/local/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.rpc" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.rpc" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8460f38d-2d62-4d41-aed6-3790a94c2f9c" name="Default Changelist" comment="" />
+      <created>1556438468291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556438468291</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2239873" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="DB Browser" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914045" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44981414" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985765" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.16192171" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2239873" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="DB Browser" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914045" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44981414" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985765" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.16192171" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/account_fresh/models/account_move.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/xjy_wms/models/xjy_wms_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="53" column="99" lean-forward="true" selection-start-line="53" selection-start-column="99" selection-end-line="53" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/rpc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="71" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/tms/controllers/data_operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1720">
+          <caret line="106" column="31" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/xjy_tms/models/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="68" column="62" lean-forward="true" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/tms/models/tms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/update_account/wizard/generate_account_balance.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monomer_statements/data/ms_sequence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monomer_statements/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i18n/zh_CN .po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1092">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/odoo_10.0+e.latest (1)/odoo-10.0+e.20190321/odoo/addons/sale_timesheet/models/sale_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="135" column="42" selection-start-line="135" selection-start-column="42" selection-end-line="135" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../account_print_ext/controllers/export_to_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../account_print_ext/report/account_move_report.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1768">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monomer_statements/i18n/zh_CN.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="264" column="16" selection-start-line="264" selection-start-column="16" selection-end-line="264" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/site-packages/adodbapi/adodbapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2302">
+          <caret line="954" column="11" lean-forward="true" selection-start-line="954" selection-start-column="11" selection-end-line="954" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1494736245/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="492" column="8" selection-start-line="492" selection-start-column="8" selection-end-line="492" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../base_coder/models/res_city.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../base_coder/models/res_patner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../base_coder/models/res_district.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/account_fresh/views/actual_invoice_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../base_coder/models/company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/wkf_powerful/models/wkf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/account_fresh/models/account_bank_statement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3978" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../account_print_ext/wizard/account_print_wizard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214" />
+      </provider>
+    </entry>
+    <entry file="file://E:/odoo_10.0+e.latest (1)/odoo-10.0+e.20190321/odoo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="1511" column="37" lean-forward="true" selection-start-line="1511" selection-start-column="15" selection-end-line="1511" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/odoo_10.0+e.latest (1)/odoo-10.0+e.20190321/odoo/addons/point_of_sale/models/account_journal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/odoo_10.0+e.latest (1)/odoo-10.0+e.20190321/odoo/tools/misc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="929" column="8" selection-start-line="929" selection-start-column="8" selection-end-line="929" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../account_print_ext/security/ir.model.access.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../base_coder/security/test_security.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/fresh_inspurodoo/myaddons/account_analytic_ext/security/ir.model.access.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/account_fresh/models/account_invoice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="72" column="73" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/fresh_inspurodoo/myaddons/account_analytic_ext/security/account_analytic_ext_security.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/fresh_inspurodoo/myaddons/account_analytic_ext/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../account_print_ext/report/account_move_report_print.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="174" column="39" lean-forward="true" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monomer_statements/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/local/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monomer_statements/security/ir.model.access.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flsscm_odoo/update_account/models/account_period.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monomer_statements/security/monomer_statements_security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monomer_statements/views/monomer_statements.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="147" column="54" selection-start-line="147" selection-start-column="54" selection-end-line="147" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/income_tax_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/income_account_report.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wizard/income_sheet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customer_attribute_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../monomer_statements/models/monomer_statements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="332" column="59" lean-forward="true" selection-start-line="332" selection-start-column="59" selection-end-line="332" selection-end-column="59" />
+          <folding>
+            <element signature="e#24#40#0" expanded="true" />
+            <marker date="1558336779136" expanded="true" signature="211:212" ph="..." />
+            <marker date="1558336779136" expanded="true" signature="419:421" ph="..." />
+            <marker date="1558336779136" expanded="true" signature="3106:3107" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/export_to_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="e#25#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/ir.model.access.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/account_tax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wizard/account_income_wizard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#24#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

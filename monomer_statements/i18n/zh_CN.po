@@ -1,0 +1,291 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* monomer_statements
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0+e-20190321\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-15 02:24+0000\n"
+"PO-Revision-Date: 2019-05-15 02:24+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_account_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_account_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_account_id
+msgid "Account id"
+msgstr "Account id"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_company_id
+msgid "Company id"
+msgstr "Company id"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_id
+msgid "Cost id"
+msgstr "Cost id"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_cost_line_id
+msgid "Cost line id"
+msgstr "Cost line id"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_create_uid
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_create_uid
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_create_uid
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_create_date
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_create_date
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_create_date
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_display_name
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_display_name
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_display_name
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_id
+msgid "ID"
+msgstr "ID"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements___last_update
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line___last_update
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line___last_update
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line___last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_write_uid
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_write_uid
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_write_uid
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_write_date
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_write_date
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_write_date
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_operate_id
+msgid "Operate id"
+msgstr "收入id"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_operate_line_id
+msgid "Operate line id"
+msgstr "收入明细id"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_partner_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_partner_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_partner_id
+msgid "Partner"
+msgstr "合作伙伴"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_id
+msgid "Profit id"
+msgstr "利润 id"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_profit_line_id
+msgid "Profit line id"
+msgstr "利润明细 id"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_adjust_item_month
+msgid "adjust item"
+msgstr "调整项目"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_adjust_item_cost_month
+msgid "adjust item cost"
+msgstr "调整项目成本"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_adjust_item_cost_year
+msgid "adjust item cost year"
+msgstr "调整项目成本本年累计"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_adjust_item_profit_month
+msgid "adjust item profit"
+msgstr "调整项目利润"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_adjust_item_profit_year
+msgid "adjust item profit year"
+msgstr "调整项目利润本年累计"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_adjust_item_year
+msgid "adjust item year"
+msgstr "调整项目收入本年累计"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_assess_operating_cost_month
+msgid "assess operating cost"
+msgstr "考核营业成本"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_assess_operating_cost_year
+msgid "assess operating cost year"
+msgstr "考核营业成本本年累计"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_assess_operating_income_month
+msgid "assess operating income"
+msgstr "考核营业收入"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_assess_operating_income_year
+msgid "assess operating income year"
+msgstr "考核营业收入本年累计"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_assess_operating_profit_month
+msgid "assess operating profit"
+msgstr "考核营业利润"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_assess_operating_profit_year
+msgid "assess operating profit year"
+msgstr "考核营业利润本年累计"
+
+#. module: monomer_statements
+#: model:ir.model,name:monomer_statements.model_monomer_statements
+msgid "monomer.statements"
+msgstr "考核调整表"
+
+#. module: monomer_statements
+#: model:ir.model,name:monomer_statements.model_monomer_statements_cost_line
+msgid "monomer.statements.cost.line"
+msgstr "考核调整成本明细"
+
+#. module: monomer_statements
+#: model:ir.model,name:monomer_statements.model_monomer_statements_income_line
+msgid "monomer.statements.income.line"
+msgstr "考核调整收入明细"
+
+#. module: monomer_statements
+#: model:ir.model,name:monomer_statements.model_monomer_statements_profit_line
+msgid "monomer.statements.profit.line"
+msgstr "考核调整利润明细"
+
+#. module: monomer_statements
+#: model:ir.ui.view,arch_db:monomer_statements.account_monomer_statements_form_view
+msgid "monomer_statements"
+msgstr "考核调整表"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_month_amount
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_month_amount
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_month_amount
+msgid "month amount"
+msgstr "本月数"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_name
+msgid "name"
+msgstr "name"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_note
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_note
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_note
+msgid "note"
+msgstr "备注（如型号等）"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_operating_cost_month
+msgid "operating cost"
+msgstr "报表营业成本"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_operating_cost_year
+msgid "operating cost year"
+msgstr "报表营业成本本年累计"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_operating_income_month
+msgid "operating income"
+msgstr "报表营业收入"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_operating_income_year
+msgid "operating income year"
+msgstr "报表营业收入本年累计"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_operating_profit_month
+msgid "operating profit"
+msgstr "报表营业利润"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_operating_profit_year
+msgid "operating profit year"
+msgstr "报表营业利润本年累计"
+
+#. module: monomer_statements
+#: model:ir.model,name:monomer_statements.model_operating_income
+msgid "operating.income"
+msgstr "报表营业收入"
+
+#. module: monomer_statements
+#: model:ir.model,name:monomer_statements.model_operating_income_line
+msgid "operating.income.line"
+msgstr "报表营业收入明细"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_period_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_period_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_period_id
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_period_id
+msgid "period"
+msgstr "期间"
+
+#. module: monomer_statements
+#: sql_constraint:monomer.statements:0
+msgid "the company must be unique"
+msgstr "公司必须唯一"
+
+#. module: monomer_statements
+#: sql_constraint:monomer.statements:0
+msgid "the name must be unique"
+msgstr "姓名必须唯一"
+
+#. module: monomer_statements
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_cost_line_year_amount
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_income_line_year_amount
+#: model:ir.model.fields,field_description:monomer_statements.field_monomer_statements_profit_line_year_amount
+msgid "year amount"
+msgstr "本年累计数"
+

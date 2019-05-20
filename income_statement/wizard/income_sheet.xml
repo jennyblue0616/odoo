@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="income_wizard_form_view">
+            <field name="name">account.income.wizard.wizard.form</field>
+            <field name="model">account.income.wizard</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="account_income">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="start_period" string="请选择开始期间"
+                                options="{'no_create': True,'no_open':True, 'no_create_edit':True, 'no_quick_create':True}"/>
+                            </group>
+                            <group>
+                                <field name="end_period" string="请选择结束期间"
+                                options="{'no_create': True,'no_open':True, 'no_create_edit':True, 'no_quick_create':True}"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="customer" string="请选择客户" widget="many2many_tags"
+                                   options="{'no_create': True,'no_open':True, 'no_create_edit':True, 'no_quick_create':True}"/>
+                        </group>
+                    </sheet>
+                    <footer>
+                        <button name="print_to_excel" type="object"
+                                string="export to excel" class="oe_highlight"/>
+                        <button special="cancel" string="取消"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_view_income_sheet" model="ir.actions.act_window">
+            <field name="name">Income Statements</field>
+            <field name="res_model">account.income.wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="target">new</field>
+            <field name="view_mode">form</field>
+            <field name="view_type">form</field>
+        </record>
+
+        <record id="action_income_sheet" model="ir.ui.menu">
+            <field name="name">Income Statements</field>
+            <field name="action" ref="action_view_income_sheet"/>
+            <field name="parent_id" ref="account_period.menu_finance_periodical_processing"/>
+        </record>
+    </data>
+</odoo>

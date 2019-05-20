@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_monomer_statements,monomer_statements,model_monomer_statements,,1,1,1,1
+access_monomer_statements_income_line,monomer_statements_income_line,model_monomer_statements_income_line,,1,1,1,1
+access_monomer_statements_cost_line,monomer_statements_cost_line,model_monomer_statements_cost_line,,1,1,1,1
+access_monomer_statements_profit_line,monomer_statements_profit_line,model_monomer_statements_profit_line,,1,1,1,1
+access_monomer_statements_receive_line,monomer_statements_receive_line,model_monomer_statements_receive_line,,1,1,1,1

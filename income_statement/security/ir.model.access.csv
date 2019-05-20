@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_income_tax,account.income.tax,income_statement.model_account_income_tax,,1,1,1,1
+access_customer_attribute,customer.attribute,income_statement.model_customer_attribute,,1,1,1,1

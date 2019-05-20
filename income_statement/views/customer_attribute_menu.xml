@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="customer_attribute_form_view">
+            <field name="name">customer.attribute.form</field>
+            <field name="model">customer.attribute</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="customer_attribute">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="type_id"/>
+                            </group>
+                            <group>
+                                <field name="value_id"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id='customer_attribute_tree' model='ir.ui.view'>
+            <field name="name">Customer Attribute</field>
+            <field name="model">customer.attribute</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="type_id" />
+                    <field name="value_id" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_customer_attribute" model="ir.actions.act_window">
+            <field name="name">Customer Attribute</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">customer.attribute</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_customer_attribute" id="menu_customer_attribute" name="Customer Attribute"
+                  parent="account.menu_finance_configuration"/>
+    </data>
+</odoo>

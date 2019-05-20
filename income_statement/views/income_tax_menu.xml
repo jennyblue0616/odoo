@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="account_income_tax_form_view">
+            <field name="name">account.income.tax.form</field>
+            <field name="model">account.income.tax</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="account_income">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="account_id" string="收入" widget="many2many_tags"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'/>
+                            </group>
+                            <group>
+                                <field name="tax_id" string="税率"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'/>
+                            </group>
+                            <group>
+                                <field name="start_period_id" string="开始期间"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'/>
+                            </group>
+                            <group>
+                                <field name="end_period_id" string="结束期间"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id='account_income_tax_tree' model='ir.ui.view'>
+            <field name="name">Account Income Tax</field>
+            <field name="model">account.income.tax</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="account_id" string="会计收入"/>
+                    <field name="tax_id" string="税率"/>
+                    <field name="start_period_id" string="开始期间"/>
+                    <field name="end_period_id" string="结束期间"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_account_income_tax" model="ir.actions.act_window">
+            <field name="name">Account Income Tax</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">account.income.tax</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_account_income_tax" id="menu_account_income_tax" name="Account Income Tax"
+                  parent="account.menu_finance_configuration"/>
+    </data>
+</odoo>

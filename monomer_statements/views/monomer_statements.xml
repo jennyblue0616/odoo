@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="account_monomer_statements_form_view">
+            <field name="name">monomer.statements.form</field>
+            <field name="model">monomer.statements</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="monomer_statements">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="company_id" string="公司" attrs="{'readonly':[('name','!=',False)]}"/>
+                            </group>
+                            <group>
+                                <field name="name" string="项目" attrs="{'readonly':[('name','!=',False)]}"/>
+                            </group>
+                            <group>
+                                <field name="period_id" string="期间"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'
+                               />
+                            </group>
+                        </group>
+
+                        <notebook>
+                            <page string="收入">
+                                <group>
+                                        <group>
+                                            <field name="assess_operating_income_month" string="考核营业收入本月数" readonly="1"/>
+                                            <field name="operating_income_month" string="报表营业收入本月数" readonly="1"/>
+                                            <field name="adjust_item_month" string="调整项目合计本月数" readonly="1"/>
+                                        </group>
+                                        <group>
+                                            <field name="assess_operating_income_year" string="考核营业收入本年累计" readonly="1"/>
+                                            <field name="operating_income_year" string="报表营业收入本年累计" readonly="1"/>
+                                            <field name="adjust_item_year" string="调整项目合计本年累计" readonly="1"/>
+                                        </group>
+                                    </group>
+                                <field name="operate_id" widget="one2many_list" >
+                                    <tree editable="bottom">
+                                        <field name="company_id" string="往来公司"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'
+                                        domain="[('code' ,'!=', False), ('code' ,'like', '2'), ('id', '!=', self_company_id)]"/>
+                                        <field name="self_company_id" invisible="1"/>
+                                        <field name="month_amount" string="本月数" required= "True"/>
+                                        <field name="year_amount" string="本年累计数"/>
+                                        <field name="account_id" string="科目"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'
+                                        domain="[('child_ids', '=', False)]"/>
+                                        <field name="note" string="备注"/>
+                                    </tree>
+                                </field>
+                            </page>
+
+                            <page string="成本">
+                                <group>
+                                        <group>
+                                            <field name="assess_operating_cost_month" string="考核营业成本本月数" readonly="1"/>
+                                            <field name="operating_cost_month" string="报表营业成本本月数" readonly="1"/>
+                                            <field name="adjust_item_cost_month" string="调整项目合计本月数" readonly="1"/>
+                                        </group>
+                                        <group>
+                                            <field name="assess_operating_cost_year" string="考核营业成本本年累计" readonly="1"/>
+                                            <field name="operating_cost_year" string="报表营业成本本年累计" readonly="1"/>
+                                            <field name="adjust_item_cost_year" string="调整项目合计本年累计" readonly="1"/>
+                                        </group>
+                                    </group>
+                                <field name="cost_id" widget="one2many_list" >
+                                    <tree editable="bottom">
+                                        <field name="company_id" string="往来公司"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'
+                                        domain="[('code' ,'!=', False), ('code' ,'like', '2'), ('id', '!=', self_company_id)]"/>
+                                        <field name="self_company_id" invisible="1"/>
+                                        <field name="month_amount" string="本月数" required= "True"/>
+                                        <field name="year_amount" string="本年累计数"/>
+                                        <field name="account_id" string="科目"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'
+                                        domain="[('child_ids', '=', False)]"/>
+                                        <field name="note" string="备注"/>
+                                    </tree>
+                                </field>
+                            </page>
+
+                            <page string="利润">
+                                <group>
+                                        <group>
+                                            <field name="assess_operating_profit_month" string="考核净利润本月数" readonly="1"/>
+                                            <field name="operating_profit_month" string="报表净利润本月数" readonly="1"/>
+                                            <field name="adjust_item_profit_month" string="调整项目合计本月数" readonly="1"/>
+                                        </group>
+                                        <group>
+                                            <field name="assess_operating_profit_year" string="考核净利润本年累计" readonly="1"/>
+                                            <field name="operating_profit_year" string="报表净利润本年累计" readonly="1"/>
+                                            <field name="adjust_item_profit_year" string="调整项目合计本年累计" readonly="1"/>
+                                        </group>
+                                    </group>
+                                <field name="profit_id" widget="one2many_list" >
+                                    <tree editable="bottom">
+                                        <field name="company_id" string="往来公司"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'
+                                        domain="[('code' ,'!=', False), ('code' ,'like', '2'), ('id', '!=', self_company_id)]"/>
+                                        <field name="self_company_id" invisible="1"/>
+                                        <field name="month_amount" string="本月数" required= "True"/>
+                                        <field name="year_amount" string="本年累计数"/>
+                                        <field name="account_id" string="科目"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'
+                                        domain="[('child_ids', '=', False)]"/>
+                                        <field name="note" string="备注"/>
+                                    </tree>
+                                </field>
+                            </page>
+
+                             <page string="应收账款">
+                                <group>
+                                        <group>
+                                            <field name="assess_operating_receive_month" string="考核应收账款" readonly="1"/>
+                                            <field name="operating_receive_month" string="报表应收账款" readonly="1"/>
+                                            <field name="adjust_item_receive_month" string="调整项目合计" readonly="1"/>
+                                        </group>
+                                    </group>
+                                <field name="receive_id" widget="one2many_list" >
+                                    <tree editable="bottom">
+                                        <field name="company_id" string="往来公司"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'
+                                        domain="[('code' ,'!=', False), ('code' ,'like', '2'), ('id', '!=', self_company_id)]"/>
+                                        <field name="self_company_id" invisible="1"/>
+                                        <field name="month_amount" string="本月数" required= "True"/>
+                                        <field name="account_id" string="科目"
+                                       options='{"no_open": True, "no_quick_create":True, "no_create_edit": True}'
+                                        domain="[('child_ids', '=', False)]"/>
+                                        <field name="note" string="备注"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id='account_monomer_statements_tree' model='ir.ui.view'>
+            <field name="name">考核调整表</field>
+            <field name="model">monomer.statements</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="company_id" string="公司"/>
+                    <field name="period_id" string="期间"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_monomer_statements" model="ir.actions.act_window">
+            <field name="name">考核调整表</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">monomer.statements</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_monomer_statements" id="menu_monomer_statements" name="考核调整表"/>
+    </data>
+</odoo>

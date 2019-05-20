@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/fresh_inspurodoo/myaddons/account_analytic_ext/.idea/account_analytic_ext.iml" filepath="E:/fresh_inspurodoo/myaddons/account_analytic_ext/.idea/account_analytic_ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../account_print_ext/.idea/account_print_ext.iml" filepath="$PROJECT_DIR$/../account_print_ext/.idea/account_print_ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../base_coder/.idea/base_coder.iml" filepath="$PROJECT_DIR$/../base_coder/.idea/base_coder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../flsscm_odoo/.idea/flsscm_odoo.iml" filepath="$PROJECT_DIR$/../../flsscm_odoo/.idea/flsscm_odoo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/income_statement.iml" filepath="$PROJECT_DIR$/.idea/income_statement.iml" />
+      <module fileurl="file://E:/local/.idea/local.iml" filepath="E:/local/.idea/local.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../monomer_statements/.idea/monomer_statements.iml" filepath="$PROJECT_DIR$/../monomer_statements/.idea/monomer_statements.iml" />
+      <module fileurl="file://E:/odoo_10.0+e.latest (1)/.idea/odoo_10.0+e.latest (1).iml" filepath="E:/odoo_10.0+e.latest (1)/.idea/odoo_10.0+e.latest (1).iml" />
+    </modules>
+  </component>
+</project>

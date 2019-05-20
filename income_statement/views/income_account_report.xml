@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <report
+                id="report_income_detail"
+                name="income_statement.report_income_detail"
+                string="xls"
+                model="account.income.wizard"
+                menu="False"
+        />
+
+        <record id="report_income_detail" model="ir.actions.report.xml">
+            <field name="report_type">controller</field>
+            <field name="report_rml">/report/income_statement.report_income_detail</field>
+        </record>
+
+    </data>
+</odoo>

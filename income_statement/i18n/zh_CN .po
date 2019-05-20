@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* income_statement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0+e-20190321\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-08 07:39+0000\n"
+"PO-Revision-Date: 2019-05-08 07:39+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: income_statement
+#: model:ir.model.fields,field_description:income_statement.field_account_income_tax_create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: income_statement
+#: model:ir.model.fields,field_description:income_statement.field_account_income_tax_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: income_statement
+#: model:ir.model.fields,field_description:income_statement.field_account_income_tax_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: income_statement
+#: model:ir.model.fields,field_description:income_statement.field_account_income_tax_id
+msgid "ID"
+msgstr "ID"
+
+#. module: income_statement
+#: model:ir.model.fields,field_description:income_statement.field_account_income_tax___last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: income_statement
+#: model:ir.model.fields,field_description:income_statement.field_account_income_tax_write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: income_statement
+#: model:ir.model.fields,field_description:income_statement.field_account_income_tax_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: income_statement
+#: model:ir.actions.act_window,name:income_statement.action_account_income_tax
+#: model:ir.model,name:income_statement.model_account_income_tax
+#: model:ir.ui.menu,name:income_statement.menu_account_income_tax
+msgid "account.income.tax"
+msgstr "会计收入税率"
+
+#. module: income_statement
+#: model:ir.model,name:income_statement.model_account_income_wizard
+msgid "account.income.wizard"
+msgstr "account.income.wizard"
+
+#. module: income_statement
+#: model:ir.ui.view,arch_db:income_statement.account_income_tax_form_view
+#: model:ir.ui.view,arch_db:income_statement.income_wizard_form_view
+msgid "account_income"
+msgstr "account_income"
+
+#. module: income_statement
+#: model:ir.actions.act_window,name:income_statement.action_view_income_sheet
+#: model:ir.ui.menu,name:income_statement.action_income_sheet
+msgid "income statements"
+msgstr "会计收入报表"
+
+#. module: income_statement
+#: model:ir.model,name:income_statement.model_income_statement
+msgid "income.statement"
+msgstr "会计收入报表"
+
+#. module: income_statement
+#: model:ir.model.fields,field_description:income_statement.field_account_income_tax_account_id
+msgid "subject"
+msgstr "subject"
+
+#. module: income_statement
+#: model:ir.model.fields,field_description:income_statement.field_account_income_tax_tax_id
+msgid "tax"
+msgstr "tax"
+
+#. module: income_statement
+#: model:ir.actions.report.xml,name:income_statement.report_income_detail
+msgid "xls"
+msgstr "xls"
+
+#. module: income_statement
+#: model:ir.ui.view,arch_db:income_statement.income_wizard_form_view
+msgid "导出excel"
+msgstr "导出excel"
+

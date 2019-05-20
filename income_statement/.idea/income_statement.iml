@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="account_print_ext" />
+    <orderEntry type="module" module-name="flsscm_odoo" />
+    <orderEntry type="module" module-name="account_analytic_ext" />
+    <orderEntry type="module" module-name="base_coder" />
+    <orderEntry type="module" module-name="odoo_10.0+e.latest (1)" />
+    <orderEntry type="module" module-name="monomer_statements" />
+    <orderEntry type="module" module-name="local" />
+  </component>
+</module>
